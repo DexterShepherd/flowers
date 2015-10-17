@@ -28,8 +28,7 @@ private:
     int numParticles;
     int numSystems;
     vector<int> origins;
-    System** systems;
-    vector<System*> sys;
+    System* system;
     float opac;
     float inc;
     float theta;

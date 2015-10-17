@@ -23,7 +23,7 @@ private:
     vector<Particle> particle;
     int numDests;
 public:
-    System(int np, ofVec2f o, float r, ofVec2f c, int nd);
+    System(int np, ofVec2f o, ofVec2f c, float r, int nd);
     void update();
     void display();
     void setCenter(ofVec2f cen);

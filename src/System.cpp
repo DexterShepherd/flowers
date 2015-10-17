@@ -8,7 +8,7 @@
 
 #include "System.h"
 #include "Particle.h"
-System::System(int np, ofVec2f o, float r, ofVec2f c, int nd){
+System::System(int np, ofVec2f o, ofVec2f c, float r, int nd){
     origin  = o;
     numParticles = np;
     radius = r;
